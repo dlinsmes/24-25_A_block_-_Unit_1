@@ -114,7 +114,7 @@ public class Variables {
         //this doesn't work bc ints cannot hold decimal values
         //int n = 7.9;
 
-        //can force the type version by casting 7.9 as an int
+        //can force the type conversion by casting 7.9 as an int
         int wholeNum = (int)(7.9);
 
         //when casting doubles to ints, decimals are truncated, not rounded
