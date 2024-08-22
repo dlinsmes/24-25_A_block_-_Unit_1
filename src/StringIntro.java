@@ -13,7 +13,7 @@ and have no spaces
 -all code will go in the curly braces for the class
  */
 
-public class StringName {
+public class StringIntro {
 
     //this is the main method
     //for now, all code we write goes in the main method
