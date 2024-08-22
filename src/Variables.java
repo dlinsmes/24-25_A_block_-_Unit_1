@@ -34,7 +34,7 @@ public class Variables {
 
         // single equals (=) is the assignment operator
         //-evaluate what's on the right, then assign to the left
-        //-add the old value of friendName, add " Smith", then save
+        //-use the old value of friendName, add " Smith", then save
         //the new String back to the friendName variable
 
         //to represent numbers, use the int or double data types
