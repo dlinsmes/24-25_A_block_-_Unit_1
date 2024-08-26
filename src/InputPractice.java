@@ -21,7 +21,7 @@ public class InputPractice {
         //to round up to 1 decade
         int decades = years/10;
 
-        //mod produced the remainder after division
+        //mod produces the remainder after division
         int remainder = years % 10;
 
         System.out.println("hi " + name + ", you are " + decades
