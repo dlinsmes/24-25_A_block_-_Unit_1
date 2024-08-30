@@ -109,5 +109,36 @@ public class Rounding {
         System.out.println(tens + " $10 bills");
         amt = amt % 10;
 
+        int fives = (int)(amt/5);
+        System.out.println(fives + " $5 bills");
+        amt = amt % 5;
+
+        int ones = (int)(amt/1);
+        System.out.println(ones + " $1 bills");
+        amt = amt % 1;
+
+
+        //multiply out the cents to be a whole number, then round and use int div/mod
+
+        //easier and less tedious than rounding the cent values to
+        //two decimal places for each coin
+
+        amt = amt * 100; //24.999999
+        int cents = (int)(amt + .5); //25
+
+        int q = cents / 25;
+        System.out.println(q + " quarters");
+        cents = cents % 25;
+
+        int d = cents / 10;
+        System.out.println(d + " dimes");
+        cents = cents % 10;
+
+        int nick = cents / 5;
+        System.out.println(nick + " nickels");
+        cents = cents % 5;
+
+        System.out.println(cents + " pennies");
+
     }
 }
