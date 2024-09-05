@@ -89,7 +89,7 @@ public class Booleans {
         //--> true bc orange is not the same as apple --> false, then negate false
         b = !"orange".equals(word);
 
-        //want the user to enter "a" or "b", and set a boolean to true
+        //want the user to enter "a" or "b",  set a boolean to true
         //if they did it correctly, false otherwise
         Scanner input = new Scanner(System.in);
         System.out.println("enter a or b:");
