@@ -74,7 +74,7 @@ public class Booleans {
 
         String word = "apple";
         //for Strings, do NOT use == for comparison - sometimes it works, sometimes doesn't
-        // use the .equals(word) - this will work consistently
+        // use .equals(word) - this will work consistently
         b = word.equals("orange");
         System.out.println(b);
 
