@@ -10,21 +10,21 @@ public class U1Practice {
     public static void main(String [] args) {
 
         Scanner input = new Scanner(System.in);
-//        System.out.println("enter dog, cat, or moose");
-//        String user = input.nextLine();
-//
-//        boolean b = !( user.equals("dog") || user.equals("cat") || user.equals("moose"));
-//
-//        //DeMorgan equivalent:
-//        b = !user.equals("dog") && !user.equals("cat") && !user.equals("moose");
-//
-//        System.out.println("you did it wrong: " + b);
-//
-//        int x = 8;
-//        b = !( x > 3 && x % 4 == 0 );
-//
-//        //same as
-//        b = x <= 3 || x % 4 != 0;
+        System.out.println("enter dog, cat, or moose");
+        String user = input.nextLine();
+
+        boolean b = !( user.equals("dog") || user.equals("cat") || user.equals("moose"));
+
+        //DeMorgan equivalent:
+        b = !user.equals("dog") && !user.equals("cat") && !user.equals("moose");
+
+        System.out.println("you did it wrong: " + b);
+
+        int x = 8;
+        b = !( x > 3 && x % 4 == 0 );
+
+        //same as
+        b = x <= 3 || x % 4 != 0;
 
 
 
